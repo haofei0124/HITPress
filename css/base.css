@@ -1,0 +1,63 @@
+/* 所有页面都会用到的css文件 */
+/* 一般情况下， 所有页面的根样式都会写在这里 或者 Common.css */
+@charset "utf-8";
+
+
+
+/* 样式重置 */
+/* 因为不同的浏览器默认样式不一致 */
+
+/* 各大网站都有各自的样式重置 taobao qunaer cssreset都不错 */
+
+/* 倒三角 */
+.triangle-down {
+  border: 5px solid #666;
+  border-color: #666 transparent transparent transparent;
+  border-style: solid dashed dashed dashed;
+  width: 0;
+  height: 0;
+
+}
+
+/* 单三角 */
+.triangle-up-s {
+  /* 父容器 */
+  position: relative;
+}
+
+.triangle-up-s:before, .triangle-up-s:after {
+  content: "";
+  border: 6px solid #f1f1f1;
+  border-color: transparent transparent #f1f1f1;
+  border-style: dashed dashed solid;
+  width: 0;
+  height: 0;
+  position: absolute; 
+  /* 相对于父容器 小三角向上移动的位置 */
+  left: 50%;
+  top: -12px;
+
+}
+
+.triangle-up-s:after {
+  border-color: transparent transparent #fff;
+  top: -10px;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+
+}
+.clearfix:after {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* 弹出的层的基类 */
+.cover {
+  /* 设置弹出来的层的背景色为白色 */
+  background-color: #fff;
+}

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/cssreset.css">
+  <!-- 或者用normalize代替cssrest 国内用cssreset居多 -->
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <title>Harbin Institute of Technology Online Education</title>
+</head>
+
+<body>
+  <!-- 大结构都用h开头 因为是哈工大的h 个人习惯 -->
+  <!-- ==>S 网站头部区域 -->
+  <div class="h-header">
+    <!-- 通栏盒子 -->
+    <!-- S 顶部的用户导航 -->
+    <div class="top-nav">
+      <!-- 版心盒子 logo 搜索 用户导航都放在这里面-->
+      <div class="logo">
+
+        <h1>Harbin Institute of Technology Online Education</h1>
+        <a href="#"><img src="./img/logo.jpg" alt="logo"></a> 
+      </div>
+      <!-- S 右侧用户导航区域 -->
+      <div class="user-nav">
+        <ul class="clearfix">
+          <!-- 消息框 -->
+          <li class="msg-wrap">
+            <a href="#" class="msg">
+            <span class="msg-num">1</span>
+          </a>
+          </li class="user">
+
+          <!-- 用户头像用户名 -->
+          <li class="user-name">
+            <a href="#">
+              <img src="./img/头像.jpg" class= "avatar"alt="张三的头像" title="头像">
+            </a>
+            <a href="" class="username">HC
+              <i class="triangle-down icon-avatar"></i>
+            </a>
+            <ul class="user-menu-cover triangle-up-s cover">
+                <li><a href="#">My resources</a></li>
+                <li><a href="#">My order</a></li>
+                <li><a href="#">My information</a></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+          </li>
+          <!-- 选择教师端 -->
+          
+          <li class="teacher-ter">
+            <a href="#">
+            Teacher
+            <i class="triangle-down icon-teacher"></i>
+            </a>
+            <ul class="user-teach-cover triangle-up-s cover">
+              <li><a href="#">Teacher</a></li>
+              <li><a href="#">Student</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- E 右侧用户导航区域 -->
+
+      <!-- S 搜索框 -->
+      <div class="search">
+        <div href="#" class="course-sel">Course<i class="triangle-down icon-sel"></i>
+          <ul class="course-menu cover">
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Textbook</a></li>
+          </ul>
+        </div>
+        <input type="text" name="" id="">
+        <a href="#" class="icon-search"></a>
+        
+
+      </div>
+    </div>
+
+  </div>
+
+<!-- S 主导航区 -->
+<div class="site-nav">
+  <!-- 下面是做右侧背景的盒子 -->
+  <div class="bg-red-wrap">
+    <!-- 右侧背景的子盒子，是夫盒子的50% -->
+    <div class="bg-red"></div>
+  </div>
+  <div class="site-nav-wrap">
+      <!-- S 网站的主导航区域 -->
+      <div class="main-nav">
+        <ul class="main-nav-list">
+          <li class="menu-item" ><a class="cur" href="#">Home</a></li>
+          <li class="menu-item"><a href="#">Course</a></li>
+          <li class="menu-item"><a href="#">Textbook</a></li>
+          <li class="menu-item"></li>
+          <li class="menu-item"><a href="#">MyCourse</a></li>
+        </ul>
+      </div>
+      
+      <!-- E 网站的主导航区域 -->
+
+
+      <!-- S 导航条的右侧链接 -->
+    
+      <div class="aside-nav ">
+        <!-- aside-nav 里面有元素进行浮动了 对子元素进行包裹 加一个clearfix -->
+        <ul class="aside-nav-list">
+          <li><a href="#">Join course through QR code</a></li>
+          <li>|</li>
+          <li><a href="#">Get resource by serial number</a></li>
+        </ul>
+      </div>
+      
+      <!-- E 导航条的右侧链接 -->
+    
+  </div>
+  <!-- E 主导航区域 -->
+
+
+</div>
+
+  <!-- ==>S 网站banner区域 -->
+  <div class="h-banner">
+    <div class="slide-bar">
+      <ul class="slide-bar-list">
+        <li class="slide-btn">
+          <a href="#" class="cur-banner"></a>
+        </li>
+        <li class="slide-btn">
+          <a href="#"></a>
+        </li>
+        <li class="slide-btn">
+          <a href="#"></a>
+        </li>
+      </ul>
+    </div>
+    <a href=""><img class="banner-img" src="./img/banner.png" alt=""></a> 
+  </div>
+
+  <!-- ==>E 网站banner区域 -->
+
+  <!-- ==>S 网站主要列表区域 -->
+  <div class="h-main">
+    <!-- 课程列表 -->
+    <div class="course-list p-module">
+      <!-- 课程列表的顶部 -->
+      <div class="p-module-head clearfix">
+        <!-- 父容器下两个都float了 需要添加一个clearfix -->
+        <div class="p-module-head-title"><h3>Recommended course</h3></div>
+        <a href="#" class="p-module-more">more...</a>
+      </div>
+      <!-- 课程列表主体部分 -->
+      <div class="p-module-body clearfix">
+        <ul class="p-list">
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+          <li class="p-list-item">
+              <div class="p-img">
+                  <img src="./img/p4.jpg" alt="">
+                </div>
+                <div class="p-name">
+                  <a href="#">Course name</a>
+                </div>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+    <!-- 教材列表 -->
+    <div class="book-list p-module">
+        <div class="p-module-head clearfix">
+            <!-- 父容器下两个都float了 需要添加一个clearfix -->
+            <div class="p-module-head-title"><h3>Recommended course</h3></div>
+            <a href="#" class="p-module-more">more...</a>
+          </div>
+          <!-- 课程列表主体部分 -->
+          <div class="p-module-body clearfix">
+            <ul class="p-list">
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+              <li class="p-list-item">
+                  <div class="p-img">
+                      <img src="./img/p1.jpg" alt="">
+                    </div>
+                    <div class="p-name">
+                      <a href="#">Course name</a>
+                    </div>
+              </li>
+            </ul>
+            
+          </div>
+    </div>
+
+  </div>
+  <!-- ==>E 网站主要列表区域 -->
+
+  <!-- ==>S 网站底部区域 -->
+  <div class="h-footer">
+    <p>Copyright © 2004-2019 Harbin Institute of Technology Press</p>
+      
+
+  </div>
+
+  <!-- ==>E 网站底部区域 -->
+</body>
+
+</html>
